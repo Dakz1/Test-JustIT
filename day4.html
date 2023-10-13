@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- favicon -->
+    <link rel="icon" href="" type=""image/x-icon"">
+</head>
+<body>
+    <!-- Task 1 -->
+    <!--video, audio tags and use source inside, control and autoplay attributes to control a video added from pc -->
+    <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/zOvyRjVQLjE?si=7aqb68qV3iskQQZe" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139747.82330337248!2d-99.22174466639491!3d19.388137550242806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201b420c8c849%3A0x84231ae36f6ec524!2sMuseo%20Nacional%20de%20Antropolog%C3%ADa!5e0!3m2!1sen!2suk!4v1697116751415!5m2!1sen!2suk" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <iframe src="/Python Manual.pdf" 
+        width="600"
+        height="400"
+        type="application/pdf"
+        frameborder="0">
+    </iframe><br>
+
+    <!-- datalist, better than dropdown(select) -->
+    <label for="countries">Country:</label>
+    <input type="text" list="selectcountry" id="">
+    <datalist id="selectcountry">
+        <option value="UK">United Kingdom</option>
+        <option value="US">United States</option>
+        <option value="SR">Saudi Arabia</option>
+    </datalist><br>
+
+    <!-- Task 2 -->
+    <label for="food">Food:</label>
+    <input type="text" list="selectfood">
+    <datalist id="selectfood">
+        <option value="strawberry">Strawberry</option>
+        <option value="Avocado">Avocado</option>
+        <option value="mango">Mango</option>
+        <option value="Peach">Peach</option>
+        <option value="Pineapple">Pineapple</option>
+    </datalist>
+</body>
+</html>
